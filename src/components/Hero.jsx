@@ -53,7 +53,7 @@ function Hero() {
                         View My Work
                     </a>
                     <a
-                        href="/Aquib-Rizvi-Resume.pdf"
+                        href="/aquib-portfolio/Aquib-Rizvi-Resume.pdf"
                         download="Aquib-Rizvi-Resume.pdf"
                         className="secondary-btn"
                     >
@@ -90,31 +90,31 @@ function Hero() {
 
             </motion.div>
 
-{/* RIGHT SIDE PROFILE CIRCLE */}
+            {/* RIGHT SIDE PROFILE CIRCLE */}
 
 
-<motion.div
-    className="hero-image"
-    initial={{ opacity: 0, scale: 0.7 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1 }}
->
-    <div className="profile-wrapper">
+            <motion.div
+                className="hero-image"
+                initial={{ opacity: 0, scale: 0.7 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }}
+            >
+                <div className="profile-wrapper">
 
-        <div className="profile-ring"></div>
+                    <div className="profile-ring"></div>
 
-        <div className="profile-circle">
+                    <div className="profile-circle">
 
-            <img
-                src="/aquib-portfolio/aquib.jpeg"
-                alt="Aquib Rizvi"
-                className="profile-image"
-            />
+                        <img
+                            src="/aquib-portfolio/aquib.jpeg"
+                            alt="Aquib Rizvi"
+                            className="profile-image"
+                        />
 
-        </div>
+                    </div>
 
-    </div>
-</motion.div>
+                </div>
+            </motion.div>
 
 
             {/* SCROLL ICON */}
