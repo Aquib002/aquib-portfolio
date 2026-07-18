@@ -99,7 +99,6 @@ function Hero() {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1 }}
 >
-
     <div className="profile-wrapper">
 
         <div className="profile-ring"></div>
@@ -107,7 +106,7 @@ function Hero() {
         <div className="profile-circle">
 
             <img
-                src={`${import.meta.env.BASE_URL}aquib.jpeg`}
+                src="/aquib-portfolio/aquib.jpeg"
                 alt="Aquib Rizvi"
                 className="profile-image"
             />
@@ -115,7 +114,6 @@ function Hero() {
         </div>
 
     </div>
-
 </motion.div>
 
 
