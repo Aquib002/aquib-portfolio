@@ -106,11 +106,15 @@ function Hero() {
 
         <div className="profile-circle">
 
-            <img
-                src="/aquib.jpeg"
-                alt="Aquib Rizvi"
-                className="profile-image"
-            />
+           <div className="profile-circle">
+
+    <img
+        src={`${import.meta.env.BASE_URL}aquib.jpeg`}
+        alt="Aquib Rizvi"
+        className="profile-image"
+    />
+
+</div>
 
         </div>
 
