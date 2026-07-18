@@ -60,7 +60,6 @@ function Hero() {
                         <FaDownload />
                         Download Resume
                     </a>
-
                 </div>
 
                 {/* SOCIAL ICONS */}
