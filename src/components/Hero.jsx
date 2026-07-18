@@ -92,7 +92,6 @@ function Hero() {
 
 {/* RIGHT SIDE PROFILE CIRCLE */}
 
-{/* RIGHT SIDE PROFILE CIRCLE */}
 
 <motion.div
     className="hero-image"
@@ -100,25 +99,23 @@ function Hero() {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1 }}
 >
+
     <div className="profile-wrapper">
 
         <div className="profile-ring"></div>
 
         <div className="profile-circle">
 
-           <div className="profile-circle">
-
-    <img
-        src={`${import.meta.env.BASE_URL}aquib.jpeg`}
-        alt="Aquib Rizvi"
-        className="profile-image"
-    />
-
-</div>
+            <img
+                src={`${import.meta.env.BASE_URL}aquib.jpeg`}
+                alt="Aquib Rizvi"
+                className="profile-image"
+            />
 
         </div>
 
     </div>
+
 </motion.div>
 
 
