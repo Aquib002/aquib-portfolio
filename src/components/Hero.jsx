@@ -53,7 +53,7 @@ function Hero() {
                         View My Work
                     </a>
                     <a
-                        href="/aquib-portfolio/Aquib-Rizvi-Resume.pdf"
+                        href={`${import.meta.env.BASE_URL}Aquib-Rizvi-Resume.pdf`}
                         download="Aquib-Rizvi-Resume.pdf"
                         className="secondary-btn"
                     >
@@ -105,7 +105,7 @@ function Hero() {
                     <div className="profile-circle">
 
                         <img
-                            src="/aquib-portfolio/aquib.jpeg"
+                            src={`${import.meta.env.BASE_URL}aquib.jpeg`}
                             alt="Aquib Rizvi"
                             className="profile-image"
                         />
