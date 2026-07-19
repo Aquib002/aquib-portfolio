@@ -52,7 +52,7 @@ function Contact() {
 
       const response = await axios.post(
 
-        "http://localhost:8000/api/contact",
+       "https://aquib-portfolio-1.onrender.com/api/contact",
 
         formData
 
@@ -78,22 +78,16 @@ function Contact() {
 
 
     } catch (error) {
+    console.log("CONTACT ERROR:", error);
+    console.log("RESPONSE:", error.response?.data);
+    console.log("STATUS:", error.response?.status);
 
-      console.log(
-        "Contact Form Error:",
-        error
-      );
-
-
-      setStatus(
-
+    alert(
         error.response?.data?.message ||
-
-        "Something went wrong. Please try again."
-
-      );
-
-    } finally {
+        error.message ||
+        "Something went wrong"
+    );
+} finally {
 
       setLoading(false);
 
